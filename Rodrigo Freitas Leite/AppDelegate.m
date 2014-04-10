@@ -7,12 +7,36 @@
 //
 
 #import "AppDelegate.h"
-
+#import "UIColor+CustomColors.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Configure NavigationBar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor MyRed]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    // Shadow letter
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor colorWithRed:0.0
+                                         green:0.0
+                                          blue:0.0
+                                         alpha:0.8];
+    shadow.shadowOffset = CGSizeMake(0, 1);
+    
+    // Attributes of String
+    NSDictionary *attributes = @{
+                               NSForegroundColorAttributeName : [UIColor MyPaleYellow],
+                               NSShadowAttributeName : shadow,
+                               NSShadowAttributeName : [UIFont fontWithName:@"HelveticaNeue-CondensedBlack"
+                                                                       size:21.0]
+                               };
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: attributes];
+    
+    
     return YES;
 }
 							
