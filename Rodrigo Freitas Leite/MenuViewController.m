@@ -155,18 +155,20 @@
     [self.voice speechMessage:@"Hi, my name is Rodrigo, welcome to my app."];
     
     // CMMotionManager Configuration
-    self.motionManager = [[CMMotionManager alloc] init];
-    if (self.motionManager.isAccelerometerAvailable)
-    {
-        self.motionManager.accelerometerUpdateInterval = 1.0 / 6.0;
-        [self.motionManager startAccelerometerUpdates];
-        [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(accelerometerValues:) userInfo:nil repeats:YES];
-        
-    }
-    else
-    {
-        NSLog(@"Motion Manager not avaliable");
-    }
+//    self.motionManager = [[CMMotionManager alloc] init];
+//    if (self.motionManager.isAccelerometerAvailable)
+//    {
+//        self.motionManager.accelerometerUpdateInterval = 1.0 / 6.0;
+//        [self.motionManager startAccelerometerUpdates];
+//        [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(accelerometerValues:) userInfo:nil repeats:YES];
+//        
+//    }
+//    else
+//    {
+//        NSLog(@"Motion Manager not avaliable");
+//    }
+
+
 }
 
 #pragma mark - Behaviors
@@ -261,20 +263,20 @@
 {
     //NSLog(@"%@",NSStringFromCGPoint( [sender locationInView:self.view] ));
         
-    CGPoint pointInView = [sender locationInView:self.view];
-    UIImageView *imageView = [self selectView:pointInView];
+//    CGPoint pointInView = [sender locationInView:self.view];
+//    UIImageView *imageView = [self selectView:pointInView];
 //    CGRect rect =   imageView.frame;
-//    rect.origin.y += 20;
+//    rect.origin.y += 60;
 //    imageView.frame = rect;
     
     // Set Elastic  Heigth
     
-
-        imageView.center = CGPointMake(imageView.center.x, pointInView.y);
-        UIView *tempElastic = self.elastics[[self.views indexOfObject:imageView]];
-        CGRect frame  = tempElastic.frame;
-        frame.size.height = imageView.frame.origin.y - frame.origin.y + 10;
-        tempElastic.frame = frame;
+//
+//        imageView.center = CGPointMake(imageView.center.x, pointInView.y);
+//        UIView *tempElastic = self.elastics[[self.views indexOfObject:imageView]];
+//        CGRect frame  = tempElastic.frame;
+//        frame.size.height = imageView.frame.origin.y - frame.origin.y + 10;
+//        tempElastic.frame = frame;
     
 }
 
@@ -335,7 +337,7 @@
         else if (gesture.state == UIGestureRecognizerStateEnded)
         {
             // ImageView put in the bottom from user, go to next view
-            if (pointInView.y > self.view.frame.size.height - imageView.frame.size.height * 1.5)
+            if (pointInView.y > self.view.frame.size.height - imageView.frame.size.height * 2.0)
             {
                 // Remove all the Elastics
                 [UIView animateWithDuration:0.5 animations:^{
