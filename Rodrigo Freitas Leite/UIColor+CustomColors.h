@@ -13,5 +13,7 @@
 +(UIColor*) MyRed;
 +(UIColor*) MyDarkGray;
 +(UIColor*) MyPaleYellow;
++(UIColor*) MyLightGray;
++(UIColor*) MyLighterGray;
 
 @end

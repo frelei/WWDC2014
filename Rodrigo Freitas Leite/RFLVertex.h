@@ -9,15 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <GLKit/GLKit.h>
 
+
+// encapsulate OpenGL ES
 @interface RFLVertex : NSObject
 
 + (void)drawPreparedArraysWithMode:(GLenum)mode
                   startVertexIndex:(GLint)first
                   numberOfVertices:(GLsizei)count;
 
-- (id)initWithAttribStride:(GLsizeiptr)stride
-          numberOfVertices:(GLsizei)count
-                     bytes:(const GLvoid *)dataPtr
+- (id)initWithAttributte:(GLsizeiptr)attibute
+             verticesNum:(GLsizei)num
+                     bytes:(const GLvoid *)data
                      usage:(GLenum)usage;
 
 - (void)prepareToDrawWithAttrib:(GLuint)index

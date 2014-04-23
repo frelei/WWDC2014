@@ -13,7 +13,6 @@
 
 @interface MenuViewController ()
 
-@property (nonatomic) CMMotionManager *motionManager;
 @property (nonatomic) RFLVoice *voice;
 @property (nonatomic) UIDynamicAnimator *animator;
 
@@ -21,10 +20,7 @@
 @property (nonatomic) UIGravityBehavior *gravityBehavior;
 @property (nonatomic) UIGravityBehavior *gravityBehaviorLeft;
 @property (nonatomic) UIGravityBehavior *gravityBehaviorRight;
-
-//Collision
 @property (nonatomic) UICollisionBehavior *collision;
-
 @property (nonatomic) UIAttachmentBehavior *attachBehavior;
 
 @property (weak, nonatomic) IBOutlet UIView *elastic;
@@ -54,35 +50,10 @@
 {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-    
-    // Inicialize Animator with Behaviors
-//    [self.animator addBehavior:self.collision];
-//    [self.animator addBehavior:self.gravityBehavior];
-//    [self.animator addBehavior:self.attachBehavior];
-//    [self.animator addBehavior:self.attachBehaviorInfo];
     [self addAllBehaviors];
     isActiveBehavior = YES;
  
 }
-
-//#pragma mark - ParallaxEffect
-//- (void) addParallaxEffect
-//{
-//    UIInterpolatingMotionEffect *horizontalEffect =
-//    [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x"
-//                                                    type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
-//    UIInterpolatingMotionEffect *verticalEffect =
-//        [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.y"
-//                                                        type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
-//    
-//    verticalEffect.maximumRelativeValue = @(20);
-//    verticalEffect.minimumRelativeValue = @(-20);
-//    horizontalEffect.maximumRelativeValue = @(20);
-//    horizontalEffect.minimumRelativeValue = @(-20);
-//    [self.basketball addMotionEffect:verticalEffect];
-//    [self.basketball addMotionEffect:horizontalEffect];
-//    
-//}
 
 
 - (void)viewDidLoad
@@ -154,21 +125,6 @@
     self.voice = [[RFLVoice alloc] init];
     [self.voice speechMessage:@"Hi, my name is Rodrigo, welcome to my app."];
     
-    // CMMotionManager Configuration
-//    self.motionManager = [[CMMotionManager alloc] init];
-//    if (self.motionManager.isAccelerometerAvailable)
-//    {
-//        self.motionManager.accelerometerUpdateInterval = 1.0 / 6.0;
-//        [self.motionManager startAccelerometerUpdates];
-//        [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(accelerometerValues:) userInfo:nil repeats:YES];
-//        
-//    }
-//    else
-//    {
-//        NSLog(@"Motion Manager not avaliable");
-//    }
-
-
 }
 
 #pragma mark - Behaviors
@@ -261,26 +217,8 @@
 // Tap in the screen, animated
 - (IBAction)tap:(UITapGestureRecognizer *)sender
 {
-    //NSLog(@"%@",NSStringFromCGPoint( [sender locationInView:self.view] ));
-        
-//    CGPoint pointInView = [sender locationInView:self.view];
-//    UIImageView *imageView = [self selectView:pointInView];
-//    CGRect rect =   imageView.frame;
-//    rect.origin.y += 60;
-//    imageView.frame = rect;
-    
-    // Set Elastic  Heigth
-    
-//
-//        imageView.center = CGPointMake(imageView.center.x, pointInView.y);
-//        UIView *tempElastic = self.elastics[[self.views indexOfObject:imageView]];
-//        CGRect frame  = tempElastic.frame;
-//        frame.size.height = imageView.frame.origin.y - frame.origin.y + 10;
-//        tempElastic.frame = frame;
-    
+    // Implements animation when touch
 }
-
-
 
 
 /////////////////////////////////////////////////////////
@@ -404,36 +342,8 @@
     self.myInfo.center = myInfoCenter;
 }
 
-
--(void) accelerometerValues:(NSTimer*)timer
-{
-    if (isActiveBehavior)
-    {
-        if (self.motionManager.accelerometerData.acceleration.x < -0.3){
-           // NSLog(@"Left %f",self.motionManager.accelerometerData.acceleration.x);
-         //   [self removeAllGravity];
-         //   [self.animator addBehavior:self.gravityBehaviorLeft];
-            
-            
-        }
-        else if (self.motionManager.accelerometerData.acceleration.x > 0.3){
-          //  NSLog(@"RIGHT %f",self.motionManager.accelerometerData.acceleration.x);
-         //   [self removeAllGravity];
-         //   [self.animator addBehavior:self.gravityBehaviorRight];
-            
-        } else{
-         //   NSLog(@"Down %f", self.motionManager.accelerometerData.acceleration.x);
-         //   [self removeAllGravity];
-         //   [self.animator addBehavior:self.gravityBehavior];
-        }
-        
-   }
-}
-
-
 -(void) removeAllGravity
 {
- //   [self.animator removeBehavior:self.gravityBehavior];
     [self.animator removeBehavior:self.gravityBehaviorLeft];
     [self.animator removeBehavior:self.gravityBehaviorRight];
 

@@ -27,11 +27,18 @@
 #pragma mark - Delegate
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)synthesizer willSpeakRangeOfSpeechString:(NSRange)characterRange utterance:(AVSpeechUtterance *)utterance
 {
+    
+    NSMutableParagraphStyle *paragrapStyle = [[NSMutableParagraphStyle alloc] init];
+    paragrapStyle.alignment = NSTextAlignmentJustified;
+    
     NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:self.message];
 
     [text addAttribute:NSFontAttributeName
                  value:[UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:18]
                  range:NSMakeRange(0, [self.message length])];
+    
+    [text addAttribute:NSParagraphStyleAttributeName
+                 value:paragrapStyle range:NSMakeRange(0, [self.message length])];
 
     [text addAttribute:NSForegroundColorAttributeName value:[UIColor MyPaleYellow] range:NSMakeRange(0, [self.message length])];
     [text addAttribute:NSBackgroundColorAttributeName value:[UIColor MyRed] range:characterRange];

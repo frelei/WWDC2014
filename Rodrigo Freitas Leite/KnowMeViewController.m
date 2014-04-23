@@ -8,9 +8,8 @@
 
 #import "KnowMeViewController.h"
 #import "RFLVertex.h"
-#import "eu10.h"
 #import "RFLVoice.h"
-
+#import "lastModel10.h"
 
 @interface KnowMeViewController ()
 
@@ -63,14 +62,14 @@
     glClearColor(55/255.0, 65/255.0, 64/255.0, 1.0f);
 
     // Create vertex buffers containing vertices to draw
-    self.vertexPosition = [[RFLVertex alloc] initWithAttribStride:(3 * sizeof(GLfloat))
-                                                 numberOfVertices:sizeof(eu10Verts) / (3 * sizeof(GLfloat))
-                                                            bytes:eu10Verts
+    self.vertexPosition = [[RFLVertex alloc] initWithAttributte:(3 * sizeof(GLfloat))
+                                                 verticesNum:sizeof(lastModel10Verts) / (3 * sizeof(GLfloat))
+                                                            bytes:lastModel10Verts
                                                             usage:GL_STATIC_DRAW];
     
-    self.vertexTexture = [[RFLVertex alloc]  initWithAttribStride:(2 * sizeof(GLfloat))
-                                                 numberOfVertices:sizeof(eu10TexCoords) / (2 * sizeof(GLfloat))
-                                                            bytes:eu10TexCoords
+    self.vertexTexture = [[RFLVertex alloc]  initWithAttributte:(2 * sizeof(GLfloat))
+                                                 verticesNum:sizeof(lastModel10TexCoords) / (2 * sizeof(GLfloat))
+                                                            bytes:lastModel10TexCoords
                                                             usage:GL_STATIC_DRAW];
     
     // Load and Create Texture
@@ -83,12 +82,10 @@
     self.baseEffect.texture2d0.name = self.textureInfo.name;
     self.baseEffect.texture2d0.target = self.textureInfo.target;
     
-    //Configure Voice
+    //Configure Voice and TextView
     self.voice = [[RFLVoice alloc] init];
-    self.textView.textAlignment = NSTextAlignmentCenter;
     self.voice.textView = self.textView;
     [self.voice speechMessage:@"Hi, i study computer science in federal university at city of Porto Alegre that its a college in south of Brazil. Above i attempt to do a 3D model of myself to you see me and know me better, beyond of computer graphics i like software engineering, complexity of algorithm and programming languages. Now i'm working at Brazilian Education Program for iOS Development and i'm developing apps to help and change people's lives."];
-    
 }
 
 
@@ -130,7 +127,7 @@
     // Draw triangles using vertices in the prepared vertex
     [RFLVertex drawPreparedArraysWithMode:GL_TRIANGLES
                          startVertexIndex:0
-                         numberOfVertices:eu10NumVerts];
+                         numberOfVertices:lastModel10NumVerts];
     
     glEnable(GL_DEPTH_TEST);
 }

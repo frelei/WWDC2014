@@ -12,16 +12,11 @@
 
 @interface ContactViewController ()
 
-
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UILabel *labelView;
-@property (weak, nonatomic) IBOutlet UIButton *personalPage;
 
 @end
 
 @implementation ContactViewController
-
-
 
 -(void) viewWillAppear:(BOOL)animated
 {
@@ -39,29 +34,6 @@
     self.imageView.clipsToBounds = YES;
     self.imageView.layer.borderColor = [UIColor blackColor].CGColor;
     self.imageView.layer.borderWidth = 1.0;
-    
-}
-
-- (IBAction)pushButton:(UIButton *)sender
-{
-    [self performSegueWithIdentifier:@"goToWeb" sender:nil];
-
-}
-
-
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    if ( [[segue identifier] isEqualToString:@"goToWeb"])
-    {
-        WebViewController *web = [segue destinationViewController];
-        web.url = self.personalPage.currentTitle;
-    }
 }
 
 

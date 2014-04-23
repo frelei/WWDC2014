@@ -65,17 +65,18 @@
                                  NSShadowAttributeName : [UIFont fontWithName:@"HelveticaNeue-CondensedBlack"
                                                                          size:25.0]
                                  };
-    NSAttributedString *educationTitle = [[NSAttributedString alloc] initWithString:@"Education" attributes:attributes];
+    NSAttributedString *educationTitle = [[NSAttributedString alloc] initWithString:@"Education"
+                                                                         attributes:attributes];
     
-    NSAttributedString *projectTitle = [[NSAttributedString alloc] initWithString:@"Projects" attributes:attributes];
+    NSAttributedString *projectTitle = [[NSAttributedString alloc] initWithString:@"Projects"
+                                                                       attributes:attributes];
    
-    NSAttributedString *contactTitle = [[NSAttributedString alloc] initWithString:@"Contact" attributes:attributes];
+    NSAttributedString *contactTitle = [[NSAttributedString alloc] initWithString:@"Contact"
+                                                                       attributes:attributes];
     
     [self.education setAttributedTitle:educationTitle forState:UIControlStateNormal];
-    
     [self.project setAttributedTitle:projectTitle forState:UIControlStateNormal];
-    
-     [self.contact setAttributedTitle:contactTitle forState:UIControlStateNormal];
+    [self.contact setAttributedTitle:contactTitle forState:UIControlStateNormal];
 
     // Define a incial region to buttons
     outBottomPoint = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height + 100);
@@ -109,8 +110,6 @@
 
 - (IBAction)pushButton:(UIButton *)sender
 {
-//    [self.animator removeAllBehaviors];
-  //  [self.animator removeBehavior:self.gravityBehavior];
     [self.animator removeBehavior: self.snapBehavior];
     [self.animator addBehavior:self.snapBehaviorDown];
     self.education.center = CGPointMake(-10, -10);
@@ -124,13 +123,11 @@
                                        selector:@selector(nextView:) userInfo:@"goToEducation" repeats:NO];
     }else if(sender.tag == 1)
     {
-      //  [self performSegueWithIdentifier:@"goToProject" sender:nil];
         [NSTimer scheduledTimerWithTimeInterval:0.5
                                          target:self
                                        selector:@selector(nextView:) userInfo:@"goToProject" repeats:NO];
     }else if(sender.tag == 2)
     {
-     //   [self performSegueWithIdentifier:@"goToContact" sender:nil];
         [NSTimer scheduledTimerWithTimeInterval:0.5
                                          target:self
                                        selector:@selector(nextView:) userInfo:@"goToContact" repeats:NO];
@@ -142,16 +139,6 @@
 {
     [self performSegueWithIdentifier:timer.userInfo
                               sender:nil];
-
-}
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
 
 

@@ -28,5 +28,16 @@
     return [UIColor colorWithRed:217.0/255.0 green:203.0/255.0 blue:158.0/255.0 alpha:1.0];
 }
 
++(UIColor*) MyLightGray
+{
+    return [UIColor colorWithRed:80/255.0 green:65/255.0 blue:64/255.0 alpha:0.8];
+}
+
++(UIColor*) MyLighterGray
+{
+    return [UIColor colorWithRed:80/255.0 green:95/255.0 blue:94/255.0 alpha:1.0];
+
+}
+
 
 @end

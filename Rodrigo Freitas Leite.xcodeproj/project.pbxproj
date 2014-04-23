@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B04897718F6B6D60070E73E /* greaterThan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B04897618F6B6D60070E73E /* greaterThan.png */; };
+		5B107CCA18F82063002AC2D0 /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B107CC918F82063002AC2D0 /* ProjectData.m */; };
+		5B107CCD18F82541002AC2D0 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B107CCC18F82541002AC2D0 /* VideoViewController.m */; };
+		5B107CD418F82A30002AC2D0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B107CD318F82A30002AC2D0 /* MediaPlayer.framework */; };
+		5B107CD818F82B38002AC2D0 /* movesafe.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B107CD718F82B38002AC2D0 /* movesafe.m4v */; };
+		5B107CDA18F836CE002AC2D0 /* OZ.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5B107CD918F836CE002AC2D0 /* OZ.mov */; };
+		5B107CDE18F84A94002AC2D0 /* Bomberman.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B107CDD18F84A94002AC2D0 /* Bomberman.m4v */; };
 		5B2C375818F34E9800B38454 /* InformationSquareBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2C375718F34E9800B38454 /* InformationSquareBlack.png */; };
 		5B32AD2E18EF5CF900C66C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B32AD2D18EF5CF900C66C92 /* Foundation.framework */; };
 		5B32AD3018EF5CF900C66C92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B32AD2F18EF5CF900C66C92 /* CoreGraphics.framework */; };
@@ -40,7 +45,6 @@
 		5BA445D818F1EC2F00A4FC90 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA445D718F1EC2F00A4FC90 /* InfoViewController.m */; };
 		5BA445DA18F1F33900A4FC90 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA445D918F1F33900A4FC90 /* GLKit.framework */; };
 		5BA445DD18F224E200A4FC90 /* RFLVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA445DC18F224E200A4FC90 /* RFLVertex.m */; };
-		5BA445E018F2311000A4FC90 /* mymodel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BA445DF18F2311000A4FC90 /* mymodel.jpg */; };
 		5BA445E618F25C0900A4FC90 /* eu8_tex_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BA445E518F25C0900A4FC90 /* eu8_tex_0.jpg */; };
 		5BFDCC9418F07C4F0039B10F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDCC9318F07C4F0039B10F /* MenuViewController.m */; };
 		5BFE62ED18F5EC4E00337C6A /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE62EC18F5EC4E00337C6A /* UIColor+CustomColors.m */; };
@@ -58,7 +62,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B04897618F6B6D60070E73E /* greaterThan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greaterThan.png; sourceTree = "<group>"; };
+		5B107CC718F81BB2002AC2D0 /* lastModel10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lastModel10.h; sourceTree = "<group>"; };
+		5B107CC818F82063002AC2D0 /* ProjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectData.h; sourceTree = "<group>"; };
+		5B107CC918F82063002AC2D0 /* ProjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectData.m; sourceTree = "<group>"; };
+		5B107CCB18F82541002AC2D0 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		5B107CCC18F82541002AC2D0 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		5B107CD318F82A30002AC2D0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5B107CD718F82B38002AC2D0 /* movesafe.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = movesafe.m4v; sourceTree = "<group>"; };
+		5B107CD918F836CE002AC2D0 /* OZ.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = OZ.mov; sourceTree = "<group>"; };
+		5B107CDD18F84A94002AC2D0 /* Bomberman.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bomberman.m4v; sourceTree = "<group>"; };
 		5B2C375718F34E9800B38454 /* InformationSquareBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InformationSquareBlack.png; sourceTree = "<group>"; };
 		5B32AD2A18EF5CF900C66C92 /* Rodrigo Freitas Leite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rodrigo Freitas Leite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B32AD2D18EF5CF900C66C92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,10 +116,7 @@
 		5BA445D918F1F33900A4FC90 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		5BA445DB18F224E200A4FC90 /* RFLVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFLVertex.h; sourceTree = "<group>"; };
 		5BA445DC18F224E200A4FC90 /* RFLVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFLVertex.m; sourceTree = "<group>"; };
-		5BA445DE18F22D4A00A4FC90 /* mymodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mymodel.h; sourceTree = "<group>"; };
-		5BA445DF18F2311000A4FC90 /* mymodel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mymodel.jpg; sourceTree = "<group>"; };
 		5BA445E518F25C0900A4FC90 /* eu8_tex_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eu8_tex_0.jpg; sourceTree = "<group>"; };
-		5BA445E818F2650600A4FC90 /* eu10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eu10.h; sourceTree = "<group>"; };
 		5BFDCC9218F07C4F0039B10F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		5BFDCC9318F07C4F0039B10F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		5BFE62EB18F5EC4E00337C6A /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
@@ -120,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B107CD418F82A30002AC2D0 /* MediaPlayer.framework in Frameworks */,
 				5B3B4CB318F6FE61006008C2 /* CoreLocation.framework in Frameworks */,
 				5B3B4CB118F6FD9B006008C2 /* MapKit.framework in Frameworks */,
 				5BFE62EF18F6259C00337C6A /* CoreMotion.framework in Frameworks */,
@@ -145,6 +155,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B107CCE18F82705002AC2D0 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				5B107CDD18F84A94002AC2D0 /* Bomberman.m4v */,
+				5B107CD918F836CE002AC2D0 /* OZ.mov */,
+				5B107CD718F82B38002AC2D0 /* movesafe.m4v */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
 		5B32AD2118EF5CF900C66C92 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +187,7 @@
 		5B32AD2C18EF5CF900C66C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B107CD318F82A30002AC2D0 /* MediaPlayer.framework */,
 				5B3B4CB218F6FE61006008C2 /* CoreLocation.framework */,
 				5B3B4CB018F6FD9B006008C2 /* MapKit.framework */,
 				5BFE62EE18F6259C00337C6A /* CoreMotion.framework */,
@@ -184,6 +205,7 @@
 		5B32AD3318EF5CF900C66C92 /* Rodrigo Freitas Leite */ = {
 			isa = PBXGroup;
 			children = (
+				5B107CCE18F82705002AC2D0 /* video */,
 				5B32AD6718EF5D6200C66C92 /* model */,
 				5B32AD6618EF5D3D00C66C92 /* view */,
 				5B32AD6518EF5D3500C66C92 /* controller */,
@@ -199,10 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				5B3B4CA318F6E2C6006008C2 /* infLogo5.png */,
-				5B04897618F6B6D60070E73E /* greaterThan.png */,
 				5B2C375718F34E9800B38454 /* InformationSquareBlack.png */,
 				5BA445E518F25C0900A4FC90 /* eu8_tex_0.jpg */,
-				5BA445DF18F2311000A4FC90 /* mymodel.jpg */,
 				5B353F7418F11C6F002FD428 /* About.me_icon.jpg */,
 				5B353F6A18F0B8F5002FD428 /* myFace.jpg */,
 				5B32AD3518EF5CF900C66C92 /* Rodrigo Freitas Leite-Info.plist */,
@@ -250,6 +270,8 @@
 				5B3B4CAE18F6FCDA006008C2 /* MapViewController.m */,
 				5B3B4CB418F6FFDC006008C2 /* WebViewController.h */,
 				5B3B4CB518F6FFDC006008C2 /* WebViewController.m */,
+				5B107CCB18F82541002AC2D0 /* VideoViewController.h */,
+				5B107CCC18F82541002AC2D0 /* VideoViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -266,14 +288,15 @@
 		5B32AD6718EF5D6200C66C92 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				5BA445E818F2650600A4FC90 /* eu10.h */,
-				5BA445DE18F22D4A00A4FC90 /* mymodel.h */,
+				5B107CC718F81BB2002AC2D0 /* lastModel10.h */,
 				5B353F6E18F0EA92002FD428 /* RFLVoice.h */,
 				5B353F6F18F0EA92002FD428 /* RFLVoice.m */,
 				5BA445DB18F224E200A4FC90 /* RFLVertex.h */,
 				5BA445DC18F224E200A4FC90 /* RFLVertex.m */,
 				5BFE62EB18F5EC4E00337C6A /* UIColor+CustomColors.h */,
 				5BFE62EC18F5EC4E00337C6A /* UIColor+CustomColors.m */,
+				5B107CC818F82063002AC2D0 /* ProjectData.h */,
+				5B107CC918F82063002AC2D0 /* ProjectData.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -358,13 +381,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA445E618F25C0900A4FC90 /* eu8_tex_0.jpg in Resources */,
+				5B107CDA18F836CE002AC2D0 /* OZ.mov in Resources */,
 				5B353F7718F11C6F002FD428 /* About.me_icon.jpg in Resources */,
+				5B107CDE18F84A94002AC2D0 /* Bomberman.m4v in Resources */,
 				5B32AD4418EF5CF900C66C92 /* Main_iPad.storyboard in Resources */,
-				5B04897718F6B6D60070E73E /* greaterThan.png in Resources */,
 				5B32AD4918EF5CF900C66C92 /* Images.xcassets in Resources */,
+				5B107CD818F82B38002AC2D0 /* movesafe.m4v in Resources */,
 				5B353F6B18F0B8F5002FD428 /* myFace.jpg in Resources */,
 				5B32AD4118EF5CF900C66C92 /* Main_iPhone.storyboard in Resources */,
-				5BA445E018F2311000A4FC90 /* mymodel.jpg in Resources */,
 				5B32AD3818EF5CF900C66C92 /* InfoPlist.strings in Resources */,
 				5B3B4CA418F6E2C6006008C2 /* infLogo5.png in Resources */,
 				5B2C375818F34E9800B38454 /* InformationSquareBlack.png in Resources */,
@@ -391,12 +415,14 @@
 				5BA445DD18F224E200A4FC90 /* RFLVertex.m in Sources */,
 				5B3B4CAF18F6FCDA006008C2 /* MapViewController.m in Sources */,
 				5BA445D818F1EC2F00A4FC90 /* InfoViewController.m in Sources */,
+				5B107CCD18F82541002AC2D0 /* VideoViewController.m in Sources */,
 				5B3B4C9D18F6DB5C006008C2 /* ProjectViewController.m in Sources */,
 				5B3B4CB618F6FFDC006008C2 /* WebViewController.m in Sources */,
 				5B32AD3A18EF5CF900C66C92 /* main.m in Sources */,
 				5B3B4C9A18F6DB4A006008C2 /* EducationViewController.m in Sources */,
 				5BFDCC9418F07C4F0039B10F /* MenuViewController.m in Sources */,
 				5BFE62ED18F5EC4E00337C6A /* UIColor+CustomColors.m in Sources */,
+				5B107CCA18F82063002AC2D0 /* ProjectData.m in Sources */,
 				5B3B4CA018F6DB6B006008C2 /* ContactViewController.m in Sources */,
 				5B353F7318F0F114002FD428 /* KnowMeViewController.m in Sources */,
 			);
@@ -539,6 +565,7 @@
 				INFOPLIST_FILE = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "79679297-29E1-4CDA-A340-EB56B1CC678B";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -554,6 +581,7 @@
 				INFOPLIST_FILE = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "F2A6E350-6EED-4898-A8DB-77A89D908BB2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
