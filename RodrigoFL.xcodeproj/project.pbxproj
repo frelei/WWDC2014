@@ -72,22 +72,22 @@
 		5B107CD918F836CE002AC2D0 /* OZ.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = OZ.mov; sourceTree = "<group>"; };
 		5B107CDD18F84A94002AC2D0 /* Bomberman.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bomberman.m4v; sourceTree = "<group>"; };
 		5B2C375718F34E9800B38454 /* InformationSquareBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InformationSquareBlack.png; sourceTree = "<group>"; };
-		5B32AD2A18EF5CF900C66C92 /* Rodrigo Freitas Leite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rodrigo Freitas Leite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B32AD2A18EF5CF900C66C92 /* RodrigoFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodrigoFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B32AD2D18EF5CF900C66C92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B32AD2F18EF5CF900C66C92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B32AD3118EF5CF900C66C92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B32AD3518EF5CF900C66C92 /* Rodrigo Freitas Leite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rodrigo Freitas Leite-Info.plist"; sourceTree = "<group>"; };
+		5B32AD3518EF5CF900C66C92 /* RodrigoFL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RodrigoFL-Info.plist"; sourceTree = "<group>"; };
 		5B32AD3718EF5CF900C66C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B32AD3918EF5CF900C66C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B32AD3B18EF5CF900C66C92 /* Rodrigo Freitas Leite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rodrigo Freitas Leite-Prefix.pch"; sourceTree = "<group>"; };
+		5B32AD3B18EF5CF900C66C92 /* RodrigoFL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RodrigoFL-Prefix.pch"; sourceTree = "<group>"; };
 		5B32AD3C18EF5CF900C66C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B32AD3D18EF5CF900C66C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B32AD4018EF5CF900C66C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5B32AD4318EF5CF900C66C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5B32AD4818EF5CF900C66C92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B32AD4E18EF5CF900C66C92 /* Rodrigo Freitas LeiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rodrigo Freitas LeiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B32AD4E18EF5CF900C66C92 /* RodrigoFLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodrigoFLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B32AD4F18EF5CF900C66C92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5B32AD5718EF5CF900C66C92 /* Rodrigo Freitas LeiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rodrigo Freitas LeiteTests-Info.plist"; sourceTree = "<group>"; };
+		5B32AD5718EF5CF900C66C92 /* RodrigoFLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RodrigoFLTests-Info.plist"; sourceTree = "<group>"; };
 		5B32AD5918EF5CF900C66C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B32AD5B18EF5CF900C66C92 /* Rodrigo_Freitas_LeiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rodrigo_Freitas_LeiteTests.m; sourceTree = "<group>"; };
 		5B353F6A18F0B8F5002FD428 /* myFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myFace.jpg; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		5B32AD2B18EF5CF900C66C92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B32AD2A18EF5CF900C66C92 /* Rodrigo Freitas Leite.app */,
-				5B32AD4E18EF5CF900C66C92 /* Rodrigo Freitas LeiteTests.xctest */,
+				5B32AD2A18EF5CF900C66C92 /* RodrigoFL.app */,
+				5B32AD4E18EF5CF900C66C92 /* RodrigoFLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,10 +225,10 @@
 				5BA445E518F25C0900A4FC90 /* eu8_tex_0.jpg */,
 				5B353F7418F11C6F002FD428 /* About.me_icon.jpg */,
 				5B353F6A18F0B8F5002FD428 /* myFace.jpg */,
-				5B32AD3518EF5CF900C66C92 /* Rodrigo Freitas Leite-Info.plist */,
+				5B32AD3518EF5CF900C66C92 /* RodrigoFL-Info.plist */,
 				5B32AD3618EF5CF900C66C92 /* InfoPlist.strings */,
 				5B32AD3918EF5CF900C66C92 /* main.m */,
-				5B32AD3B18EF5CF900C66C92 /* Rodrigo Freitas Leite-Prefix.pch */,
+				5B32AD3B18EF5CF900C66C92 /* RodrigoFL-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 		5B32AD5618EF5CF900C66C92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B32AD5718EF5CF900C66C92 /* Rodrigo Freitas LeiteTests-Info.plist */,
+				5B32AD5718EF5CF900C66C92 /* RodrigoFLTests-Info.plist */,
 				5B32AD5818EF5CF900C66C92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -304,9 +304,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B32AD2918EF5CF900C66C92 /* Rodrigo Freitas Leite */ = {
+		5B32AD2918EF5CF900C66C92 /* RodrigoFL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B32AD5F18EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "Rodrigo Freitas Leite" */;
+			buildConfigurationList = 5B32AD5F18EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "RodrigoFL" */;
 			buildPhases = (
 				5B32AD2618EF5CF900C66C92 /* Sources */,
 				5B32AD2718EF5CF900C66C92 /* Frameworks */,
@@ -316,14 +316,14 @@
 			);
 			dependencies = (
 			);
-			name = "Rodrigo Freitas Leite";
+			name = RodrigoFL;
 			productName = "Rodrigo Freitas Leite";
-			productReference = 5B32AD2A18EF5CF900C66C92 /* Rodrigo Freitas Leite.app */;
+			productReference = 5B32AD2A18EF5CF900C66C92 /* RodrigoFL.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B32AD4D18EF5CF900C66C92 /* Rodrigo Freitas LeiteTests */ = {
+		5B32AD4D18EF5CF900C66C92 /* RodrigoFLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B32AD6218EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "Rodrigo Freitas LeiteTests" */;
+			buildConfigurationList = 5B32AD6218EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "RodrigoFLTests" */;
 			buildPhases = (
 				5B32AD4A18EF5CF900C66C92 /* Sources */,
 				5B32AD4B18EF5CF900C66C92 /* Frameworks */,
@@ -334,9 +334,9 @@
 			dependencies = (
 				5B32AD5418EF5CF900C66C92 /* PBXTargetDependency */,
 			);
-			name = "Rodrigo Freitas LeiteTests";
+			name = RodrigoFLTests;
 			productName = "Rodrigo Freitas LeiteTests";
-			productReference = 5B32AD4E18EF5CF900C66C92 /* Rodrigo Freitas LeiteTests.xctest */;
+			productReference = 5B32AD4E18EF5CF900C66C92 /* RodrigoFLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -356,7 +356,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B32AD2518EF5CF900C66C92 /* Build configuration list for PBXProject "Rodrigo Freitas Leite" */;
+			buildConfigurationList = 5B32AD2518EF5CF900C66C92 /* Build configuration list for PBXProject "RodrigoFL" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -369,8 +369,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B32AD2918EF5CF900C66C92 /* Rodrigo Freitas Leite */,
-				5B32AD4D18EF5CF900C66C92 /* Rodrigo Freitas LeiteTests */,
+				5B32AD2918EF5CF900C66C92 /* RodrigoFL */,
+				5B32AD4D18EF5CF900C66C92 /* RodrigoFLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -441,7 +441,7 @@
 /* Begin PBXTargetDependency section */
 		5B32AD5418EF5CF900C66C92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B32AD2918EF5CF900C66C92 /* Rodrigo Freitas Leite */;
+			target = 5B32AD2918EF5CF900C66C92 /* RodrigoFL */;
 			targetProxy = 5B32AD5318EF5CF900C66C92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,11 +560,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Prefix.pch";
-				INFOPLIST_FILE = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "79679297-29E1-4CDA-A340-EB56B1CC678B";
+				GCC_PREFIX_HEADER = "Rodrigo Freitas Leite/RodrigoFL-Prefix.pch";
+				INFOPLIST_FILE = "Rodrigo Freitas Leite/RodrigoFL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = RodrigoFL;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -576,11 +578,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Prefix.pch";
-				INFOPLIST_FILE = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F2A6E350-6EED-4898-A8DB-77A89D908BB2";
+				GCC_PREFIX_HEADER = "Rodrigo Freitas Leite/RodrigoFL-Prefix.pch";
+				INFOPLIST_FILE = "Rodrigo Freitas Leite/RodrigoFL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = RodrigoFL;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -601,8 +605,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Rodrigo Freitas LeiteTests/Rodrigo Freitas LeiteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Rodrigo Freitas LeiteTests/RodrigoFLTests-Info.plist";
+				PRODUCT_NAME = RodrigoFLTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -619,8 +623,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rodrigo Freitas Leite/Rodrigo Freitas Leite-Prefix.pch";
-				INFOPLIST_FILE = "Rodrigo Freitas LeiteTests/Rodrigo Freitas LeiteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Rodrigo Freitas LeiteTests/RodrigoFLTests-Info.plist";
+				PRODUCT_NAME = RodrigoFLTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -629,7 +633,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B32AD2518EF5CF900C66C92 /* Build configuration list for PBXProject "Rodrigo Freitas Leite" */ = {
+		5B32AD2518EF5CF900C66C92 /* Build configuration list for PBXProject "RodrigoFL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B32AD5D18EF5CF900C66C92 /* Debug */,
@@ -638,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B32AD5F18EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "Rodrigo Freitas Leite" */ = {
+		5B32AD5F18EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "RodrigoFL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B32AD6018EF5CF900C66C92 /* Debug */,
@@ -647,7 +651,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B32AD6218EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "Rodrigo Freitas LeiteTests" */ = {
+		5B32AD6218EF5CF900C66C92 /* Build configuration list for PBXNativeTarget "RodrigoFLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B32AD6318EF5CF900C66C92 /* Debug */,

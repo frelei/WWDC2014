@@ -61,7 +61,7 @@
     glVertexAttribPointer( index, count, GL_FLOAT, GL_FALSE, _stride, NULL + offset);
     
     // once send the data, clear the bind
-    glBindVertexArrayOES(0);
+    //glBindVertexArrayOES(0);
     glBindBuffer(GL_ARRAY_BUFFER,0);
 }
 

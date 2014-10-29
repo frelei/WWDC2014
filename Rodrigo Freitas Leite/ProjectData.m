@@ -18,7 +18,7 @@
     {
         _title = title;
         _subtitle = subtitle;
-        _description = description;
+        description = description;
     }
     return self;
 }

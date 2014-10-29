@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B32AD2918EF5CF900C66C92"
-               BuildableName = "Rodrigo Freitas Leite.app"
-               BlueprintName = "Rodrigo Freitas Leite"
-               ReferencedContainer = "container:Rodrigo Freitas Leite.xcodeproj">
+               BuildableName = "RodrigoFL.app"
+               BlueprintName = "RodrigoFL"
+               ReferencedContainer = "container:RodrigoFL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B32AD4D18EF5CF900C66C92"
-               BuildableName = "Rodrigo Freitas LeiteTests.xctest"
-               BlueprintName = "Rodrigo Freitas LeiteTests"
-               ReferencedContainer = "container:Rodrigo Freitas Leite.xcodeproj">
+               BuildableName = "RodrigoFLTests.xctest"
+               BlueprintName = "RodrigoFLTests"
+               ReferencedContainer = "container:RodrigoFL.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B32AD2918EF5CF900C66C92"
-            BuildableName = "Rodrigo Freitas Leite.app"
-            BlueprintName = "Rodrigo Freitas Leite"
-            ReferencedContainer = "container:Rodrigo Freitas Leite.xcodeproj">
+            BuildableName = "RodrigoFL.app"
+            BlueprintName = "RodrigoFL"
+            ReferencedContainer = "container:RodrigoFL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B32AD2918EF5CF900C66C92"
-            BuildableName = "Rodrigo Freitas Leite.app"
-            BlueprintName = "Rodrigo Freitas Leite"
-            ReferencedContainer = "container:Rodrigo Freitas Leite.xcodeproj">
+            BuildableName = "RodrigoFL.app"
+            BlueprintName = "RodrigoFL"
+            ReferencedContainer = "container:RodrigoFL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B32AD2918EF5CF900C66C92"
-            BuildableName = "Rodrigo Freitas Leite.app"
-            BlueprintName = "Rodrigo Freitas Leite"
-            ReferencedContainer = "container:Rodrigo Freitas Leite.xcodeproj">
+            BuildableName = "RodrigoFL.app"
+            BlueprintName = "RodrigoFL"
+            ReferencedContainer = "container:RodrigoFL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

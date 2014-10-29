@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0EA026B8-8E2F-4180-AB97-EB50BA3F0114</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rodrigo Freitas Leite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8CA2749B-D505-45CF-8413-D5CDDEBE66A8</key>
+		<string>https://github.com/frelei/rfleite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rodrigo Freitas Leite.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8CA2749B-D505-45CF-8413-D5CDDEBE66A8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/frelei/rfleite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8CA2749B-D505-45CF-8413-D5CDDEBE66A8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8CA2749B-D505-45CF-8413-D5CDDEBE66A8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rfleite</string>
+		</dict>
+	</array>
+</dict>
+</plist>

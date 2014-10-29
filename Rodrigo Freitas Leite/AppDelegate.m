@@ -36,7 +36,6 @@
     
     [[UINavigationBar appearance] setTitleTextAttributes: attributes];
     
-    
     return YES;
 }
 							
